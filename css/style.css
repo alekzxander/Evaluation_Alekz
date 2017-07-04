@@ -1,0 +1,82 @@
+.navbar-inverse { background: none; border: none; }
+.navbar-inverse img { width: 120px;height: 40px; }
+.navbar-inverse .navbar-nav > li > a { color: white; }
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:hover {
+color: black;
+}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {
+color: black;
+}
+/*bar de navigation avec transparence pour le fond et changement de couleur des liens*/
+li a { color: white; }
+
+#home { background: url(../images/bg_header.jpg) no-repeat; background-size: cover;
+height: 700px; text-align: center; color: white; }
+#home p {  opacity: 0.8; margin-bottom: 40px; font-size: 26px; } 
+#home h1 { font-size: 50px; margin-bottom: 30px;font-family: 'Arvo', serif; }
+#home h3 { margin-top: 60px; font-family: 'Arvo', serif; font-size: 34px;}
+.btn-primary { border-radius: 0px;background-color: rgb(44,186,185);border: none;height: 35px; padding-top: 8px;}
+.btn-danger { border-radius: 0px; background-color: rgb(237,0,70);border: none; height: 35px; padding-top: 8px; }
+/* Mise en place du style de la partie home avec design des bouttons*/
+
+body { font-family: 'Josefin Sans', sans-serif; }
+
+/* Mise en place de la police principal*/
+
+
+
+
+#features { text-align: center; margin-top: 90px; color: #454647; margin-bottom: 50px;  }
+#features p  { line-height: 27px; color: #505359; font-size: 19px;}
+/*Stylisation de la partie features*/
+
+#about { background: url(../images/bg_nuage.jpg) no-repeat; background-size: cover; height: 650px; }
+/*Stylisation de la partie about*/	
+
+
+
+.jumbotron { width: 400px;  background-color: rgba(142, 209, 235,0.5); color: white; height: 650px;}
+/*Ajout de couleur en fond, redimension, et transparence au jumbotron*/
+
+.case { height: 100px; width: 100px; border: solid 1px white; padding: 4px;}
+/*Dimension et bordure pour les cases a l'interieur du jumbotron*/
+
+#blog { margin-bottom: 120px;margin-top: 120px; }
+#blog p { line-height: 27px; color: #505359; font-size: 19px;}
+#blog img {width: 280px;height: 280px;}
+.btn-danger i { margin-left: 8px; }
+/*Stylisation de la partie blog*/
+
+#partenaires { margin-top: 120px;margin-bottom: 120px; }
+#partenaires img { width: 150px; height: 150px; text-align: center;}  
+/*Changement de dimension pour les images*/
+
+#history { background: url(../images/bg_appareil_photo.jpg) no-repeat; height: 650px; background-size: cover;}
+/*Stylisatiob de la partie history */
+
+#photos {  background-color: #dedfe0; padding-top: 120px;padding-bottom: 120px; }
+#photos img { margin: 10px; }
+/*Redimension des photos plus ajout d'une marge*/
+
+
+
+#contact { background: url(../images/bg_newsletter.jpg) no-repeat;  height: 400px;
+color: white; }
+#contact p { line-height: 27px; color: white; font-size: 19px; margin-top: 40px; } 
+#contact h2 { margin-top: 120px; }
+input { margin-bottom: -20px; }
+/*Stylisation de la partie contact*/
+
+footer { background-color: rgb(26,39,46); height:180px; padding: 1px; color: white; }
+strong { color: rgb(29,141,172); }
+/*Stylisation de la partie footer*/
+
+.icon { display: flex;justify-content: space-between; margin-top: 70px; }
+.icon i { padding-top: 60px; }
+/*Changement des position des icons dans le footer et alignement avec display*/
+
+
+
+
+
+
